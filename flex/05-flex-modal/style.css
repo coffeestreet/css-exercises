@@ -33,6 +33,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .close-button {
@@ -67,3 +68,46 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+  /* solutions */
+
+  .modal{
+    display: flex;
+    flex-direction: row;
+  }
+
+ .middle-container{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+ }
+
+ .icon-container{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  padding: 10px;
+ }
+
+ .cross {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+ }
+
+ .header{
+  padding-top: 6px;
+  font-weight: bold;
+ }
+
+ .text{
+  padding-top: 10px;
+  padding-bottom: 10px;
+ }
+
+ .top-mid{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
